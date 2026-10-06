@@ -1,7 +1,6 @@
 class TernTools < Formula
-  desc "Installs tern (Tern's shell server and connector) and the tern-cli command-line tool"
+  desc "Tern's shell server and connector, and the tern-cli command-line tool"
   homepage "https://github.com/asaasinventuresllc/Tern"
-  version "0.0.1"
   license "Apache-2.0"
 
   # The macOS build is universal, so both CPU branches point at the same file.
