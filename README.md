@@ -1,8 +1,12 @@
 # Homebrew tap for Tern's computer tools
 
 ```sh
+brew trust --formula asaasinventuresllc/tern/tern-tools
 brew install asaasinventuresllc/tern/tern-tools
 ```
+
+Homebrew 7 and later load a formula from a tap outside Homebrew's own only after you trust it; the first line
+trusts this one formula. Later updates are `brew upgrade tern-tools`.
 
 Installs `tern` (Tern's shell server and connector in one program, with `tern-server` and `tern-connector` links)
 and the `tern-cli` command-line tool, from the releases at https://github.com/asaasinventuresllc/Tern.
