@@ -6,22 +6,22 @@ class TernTools < Formula
   # The macOS build is universal, so both CPU branches point at the same file.
   on_macos do
     on_arm do
-      url "https://github.com/asaasinventuresllc/Tern/releases/download/v0.0.6/tern-tools-0.0.6-darwin-universal.tar.gz"
-      sha256 "7774fa25d37ac826a54ef58a63bbb42aaa4a45945574d8200e6d2508019f119b"
+      url "https://github.com/asaasinventuresllc/Tern/releases/download/v0.0.7/tern-tools-0.0.7-darwin-universal.tar.gz"
+      sha256 "e13a2ae93f9b2c77e336838500102068ac840ec288d8830237df8a40e7a88b46"
     end
     on_intel do
-      url "https://github.com/asaasinventuresllc/Tern/releases/download/v0.0.6/tern-tools-0.0.6-darwin-universal.tar.gz"
-      sha256 "7774fa25d37ac826a54ef58a63bbb42aaa4a45945574d8200e6d2508019f119b"
+      url "https://github.com/asaasinventuresllc/Tern/releases/download/v0.0.7/tern-tools-0.0.7-darwin-universal.tar.gz"
+      sha256 "e13a2ae93f9b2c77e336838500102068ac840ec288d8830237df8a40e7a88b46"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/asaasinventuresllc/Tern/releases/download/v0.0.6/tern-tools-0.0.6-linux-aarch64.tar.gz"
-      sha256 "6b08aac760ef29c79584af587cb5c3420eec26b930f1d7ae12570380af096f97"
+      url "https://github.com/asaasinventuresllc/Tern/releases/download/v0.0.7/tern-tools-0.0.7-linux-aarch64.tar.gz"
+      sha256 "bdc1697dcd421b41d4db8ab16f17a0947560bd5fdd09f6097b0d910435a1813e"
     end
     on_intel do
-      url "https://github.com/asaasinventuresllc/Tern/releases/download/v0.0.6/tern-tools-0.0.6-linux-x86_64.tar.gz"
-      sha256 "2d45f8dc8dfa128c1db200d6f9da66e377c16bf6fb3430cd5c6aa8daf4f4e51c"
+      url "https://github.com/asaasinventuresllc/Tern/releases/download/v0.0.7/tern-tools-0.0.7-linux-x86_64.tar.gz"
+      sha256 "60c55aab827686b0916417596024a10e12037b547b7a84880d353c116c725b67"
     end
   end
 
